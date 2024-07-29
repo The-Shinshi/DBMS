@@ -21,7 +21,7 @@ VALUES(5, 'Rehman Khan', 32, 58000.00);
 SELECT * FROM Employee1;
 
 DELIMITER $$ 
-CREATE PROCEDURE gettable1( INOUT Tableontents varchar(4000))  
+CREATE PROCEDURE gettable1( INOUT Table contents varchar(4000))  
 BEGIN 
 	DECLARE finished INTEGER DEFAULT 0; 
 	DECLARE content varchar(100) DEFAULT ""; 
