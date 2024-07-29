@@ -1,8 +1,10 @@
 create database Program3;
+
 USE Program3;
 
 CREATE TABLE Employee3 (E_id INT,
-E_name VARCHAR(100),Age INT,
+E_name VARCHAR(100),
+Age INT,
 Salary DECIMAL(10, 2));
 
 DESC Employee3;
@@ -28,5 +30,3 @@ SELECT MAX(Age) AS MaxAge FROM Employee3;
 SELECT MIN(Age) AS MinAge FROM Employee3; 
 
 SELECT Salary FROM Employee3 ORDER BY Salary ASC;
-
-SELECT COUNT(E_name) AS NumberOfEmployees FROM Employee3;
